@@ -1,0 +1,289 @@
+.logo {
+    width: 50px;
+}
+
+.navbar {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-item a:hover {
+    color: rgb(28, 28, 212);
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbtn1:hover {
+    background-color: #e2e3e9;
+}
+
+.navbt {
+    width: 155px;
+    height: 58px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.navbt:hover {
+    background-color: #e2e3e9 !important;
+    color: #14142b !important;
+    margin-top: -1%;
+}
+
+.navbt1 {
+    width: 155px;
+    height: 58px;
+    margin-right: 15px;
+    font-size: 20px;
+    background-color: #fedb01;
+    border: 1px solid #fedb01;
+}
+
+.navbt1:hover {
+    background-color: black !important;
+    color: white !important;
+    margin-top: -1%;
+}
+
+.ig {
+    box-shadow: 71px 0px 0px 21px #e2e3e9;
+    width: 441px !important;
+}
+
+.cb {
+    height: 502px;
+
+}
+
+.cb h1 {
+    font-size: 72px;
+}
+
+.abc {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+.bndbtn button {
+    height: 200px !important;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-img:hover {
+    margin-top: -1% !important;
+}
+
+/* .img22{
+    margin-top: 1% !important;
+} */
+.ig2 {
+    box-shadow: 102px 40px 0px 21px #e2e3e9;
+    width: 441px !important;
+}
+
+#cont {
+    position: relative;
+}
+
+#img2 {
+    position: absolute;
+    left: 209px;
+    top: 139px;
+    width: 385px;
+}
+
+.fltrt {
+    float: right;
+}
+
+.crd {
+    height: 700px !important;
+    border-radius: 25px !important;
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
+    width: 360px;
+}
+
+.crd img {
+    height: 385px !important;
+    border-radius: 25px;
+}
+
+.crd:hover img {
+    height: 370px !important;
+    overflow: hidden;
+}
+
+.crd:hover {
+    height: 650px !important;
+}
+
+.crd:hover h4,
+span,
+a {
+    color: blue;
+}
+
+.mailcrd {
+    padding: 120px 74px 120px 76px;
+    background: #14142b !important;
+    border-radius: 116px !important;
+}
+
+.abc1 {
+    height: 63px;
+    width: 812px;
+    margin-top: 34px;
+    border: none;
+    font-size: 24px;
+}
+
+.bg {
+    height: 135px !important;
+    width: 600px !important;
+    border-radius: 100px !important;
+    background-color: white !important;
+}
+
+.navbt2 {
+    background-color: #fedb01;
+    text-align: center;
+    margin-top: 21px;
+    height: 97px;
+    margin-left: 92px;
+    width: 187px;
+}
+
+.navbt2:hover {
+    background-color: black !important;
+    color: white !important;
+
+}
+
+.cardrow {
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    /* margin: auto; */
+    padding-top: 110px;
+}
+
+/* jkwdjkawdkawkdkaw */
+
+
+.pic-ctn {
+    /* width: 100vw; */
+    height: 200px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    /* width: 100vw; */
+    height: 300px;
+    margin-top: 15vh;
+}
+
+.pic-ctn>.card {
+    position: absolute;
+    top: 0;
+    /* left: calc(50% - 100px); */
+    opacity: 0;
+    animation: display 3s infinite;
+    animation-duration: 3s;
+
+
+}
+
+.card:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 6s;
+}
+
+.card:nth-child(5) {
+    animation-delay: 8s;
+}
+
+.checked {
+    color: orange;
+}
+
+.shadow {
+    height: 499px;
+    background: white;
+    width: 611px;
+    margin-top: 50px;
+    border-radius: 25px !important;
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
+}
+
+.crd1 {
+    height: 700px !important;
+    border-radius: 25px !important;
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
+    width: 360px;
+   
+}
+
+.crd1 img {
+    height: 385px !important;
+    overflow: hidden;
+    transition: transform .2s;
+    border-radius: 25px;
+}
+
+.crd1:hover img {
+    /* height: 370px !important; */
+    /* padding: 10% !important; */
+    transform: scale(1.1);
+    overflow: hidden !important;
+
+}
+
+.crd1:hover {
+    /* height: 650px !important; */
+    overflow: hidden !important;
+}
+
+.crd1:hover h4,
+span,
+a {
+    color: blue;
+}
